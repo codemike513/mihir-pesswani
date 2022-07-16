@@ -11,8 +11,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="flex flex-col h-screen justify-between font-content antialiased">
       <Header />
-      <main className="mb-auto">{children}</main>
-      <Footer />
+      <main className="mb-auto overflow-y-auto flex-1 scrollbar-hide">{children}</main>
+      {/* <Footer/> */}
     </div>
   )
 }

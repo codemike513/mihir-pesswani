@@ -1,19 +1,18 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 border-t py-12 h-32">
+    <footer className="bg-white dark:bg-[#111827] py-3 h-15">
       <div className="max-w-5xl mx-auto flex justify-between">
         <div className="flex items-center space-x-4">
-          <img
-            src="/react-bricks-icon.svg"
-            alt="React Bricks"
-            className="w-8"
-          />
-          <div className="uppercase text-sm tracking-wider">Next.js website starter</div>
+          <div className="text-gray-500 text-sm">
+            © {new Date().getFullYear()}{' '}
+            <a href="https://instagram.com/mihirpesswani52971" className="hover:text-pink-600">
+              Built and Design by Mihir Pesswani
+            </a>
+          </div>
         </div>
         <div className="text-gray-500 text-sm">
-          © {new Date().getFullYear()}{' '}
           <a href="https://reactbricks.com" className="hover:text-pink-600">
-            React Bricks
+            ALL RIGHTS RESERVED
           </a>
         </div>
       </div>

@@ -10,4 +10,8 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {},
+  plugins: [
+    require('tailwind-scrollbar-hide')
+    // ...
+  ],
 }
